@@ -1,16 +1,103 @@
-# React + Vite
+Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React to showcase projects, skills, and background as a full stack developer.
 
-Currently, two official plugins are available:
+Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a single-page application (SPA) designed to present:
 
-## React Compiler
+Personal introduction
+Technical skills
+Featured projects
+Contact information
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It uses reusable components and a structured layout to create a smooth scrolling experience between sections.
 
-## Expanding the ESLint configuration
+Features
+Navigation
+Sticky navigation bar present in every section
+Smooth anchor-based navigation (#home, #about, etc.)
+Section-Based Layout
+Reusable Section component for consistent structure
+Full-screen sections for:
+Home
+About
+Skills
+Projects
+Contact
+Conveyor Animation
+Custom-built infinite scrolling conveyor belt
+Displays technology icons
+Implemented using useRef and requestAnimationFrame
+Projects Showcase
+Grid-based layout
+Each project includes:
+Description
+GitHub link
+Preview image
+Contact Links
+Direct links to:
+LinkedIn
+GitHub
+Email
+Tech Stack
+Frontend
+React
+JavaScript (ES6+)
+HTML5
+CSS3
+Concepts Used
+React Hooks (useEffect, useRef)
+Component reusability
+DOM manipulation
+Animation with requestAnimationFrame
+Project Structure
+src/
+│── App.jsx        # Main application file
+│── App.css        # Styling
+│── assets/        # Images and icons
+Key Components
+Navbar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Reusable navigation bar displayed in every section.
+
+Section
+
+Wrapper component that:
+
+Applies consistent layout
+Injects the navbar automatically
+Conveyor
+
+Handles:
+
+Infinite scrolling animation
+Dynamic rendering of duplicated images
+Smooth horizontal movement
+Installation
+Clone the repository:
+git clone https://github.com/your-username/your-repo.git
+Navigate into the project:
+cd your-repo
+Install dependencies:
+npm install
+Run the development server:
+npm run dev
+Usage
+Open the app in your browser
+Navigate through sections using the navbar
+View projects and access their repositories
+Use contact links to reach out
+Future Improvements
+Add responsive design improvements
+Improve accessibility (ARIA labels, alt text)
+Add animations/transitions between sections
+Integrate a backend for dynamic project loading
+Add dark/light theme toggle
+Author
+
+Michael A.
+
+GitHub: https://github.com/silvamike1710-oss
+LinkedIn: https://www.linkedin.com/in/michael-alexander17/
+Deploy: https://portfolio-one-mu-94.vercel.app/
