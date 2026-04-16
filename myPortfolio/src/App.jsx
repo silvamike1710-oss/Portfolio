@@ -94,6 +94,8 @@ function App() {
           user-centered web applications. I have experience working with both
           front-end and back-end technologies, and I’m continuously improving my
           skills in areas like JavaScript, APIs, and modern frameworks.
+            My mains skills are on javascript, html, css and their frameworks, 
+            such as react, sass and node.
         </p>
       </Section>
 
@@ -127,21 +129,34 @@ function App() {
 
       <Section id="projects" className="projects">
         <h1>Projects</h1>
-        <ul>
-          <li>Kahoot Clone</li>
-          <li>3-part MFE</li>
-          <li>To-Do lists</li>
+
+        <ul className="grid-list">
+          <li className="kahoot">
+                  <a href="https://github.com/silvamike1710-oss/TriviaFam.git">Kahoot Clone: a kahoot 
+                  clone made with javascript and node,
+                  with a local server functional with multiple devices.</a>
+                  <img src='/images/kahoot-start.png' alt="kahoot-project"></img>
+          </li>
+          <li className="mfe">
+            <a href="https://github.com/silvamike1710-oss/MicroFront.git">3-part MFE: a micro frontend with a container,
+             order and menu partition, made with vite and federation.</a>
+            <img src='/images/mfe.jpeg'></img>
+            </li>
+          <li className="cakes">
+            <a href="https://github.com/silvamike1710-oss/BolosDaSalette.git">Functional freelance website: a functional website
+             for ordering cakes for a local baker, with functional whatsapp ordering system. Made with vanilla javascript, html and css.</a>
+            <img src='/images/BolosSalette.png'></img>
+            </li>
         </ul>
       </Section>
 
-      <Section id="contact" className="contact">
-        <h1>Contact</h1>
-        <ul>
-          <li>Li: /michael-alexander17</li>
-          <li>Git: /silvamike1710-oss</li>
-          <li>G: silvamike1710@gmail.com</li>
-        </ul>
-      </Section>
+      <footer id="contact" className="contact">
+        <nav className="contact-links">
+          <a href="https://www.linkedin.com/in/michael-alexander17/">Linkedin</a>
+          <a href="https://github.com/silvamike1710-oss">Github</a>
+          <a href="mailto:silvamike1710@gmail.com">Gmail</a>
+        </nav>
+      </footer>
     </>
   );
 }
