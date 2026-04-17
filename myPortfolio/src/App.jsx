@@ -3,6 +3,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import ContactForm from "./components/ContactForm";
+import './App.css';
 
 function App() {
   return (

@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import '../App.css';
 
 export default function Conveyor() {
   const beltRef = useRef(null);

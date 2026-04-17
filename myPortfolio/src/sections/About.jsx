@@ -1,4 +1,6 @@
 import Section from "../components/Section";
+import '../App.css';
+
 
 export default function About() {
   return (

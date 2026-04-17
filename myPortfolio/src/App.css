@@ -116,43 +116,20 @@ a {
     color: inherit;          /* Makes the link the same color as the surrounding text */
     text-decoration: none;   /* Removes the underline */
 }
-.kahoot {
-  display: flex;
-  flex-direction: column; /* forces image below text */
-  gap: 10px;
-}
-.cakes {
-  display: flex;
-  flex-direction: column; /* forces image below text */
-  gap: 10px;
-}
-.mfe {
+.projects {
   display: flex;
   flex-direction: column; /* forces image below text */
   gap: 10px;
 }
 
-.kahoot img {
+.projects img {
   width: 100%;        /* responsive */
   max-width: 400px;  /* prevents it from getting huge */
   height: auto;      /* keeps aspect ratio */
   border-radius: 8px;
   padding-top: 17%;
 }
-.cakes img {
-  width: 100%;        /* responsive */
-  max-width: 400px;  /* prevents it from getting huge */
-  height: auto;      /* keeps aspect ratio */
-  padding-top: 3%;
-   border-radius: 8px;
-}
-.mfe img {
-  width: 100%;        /* responsive */
-  max-width: 400px;  /* prevents it from getting huge */
-  height: auto;      /* keeps aspect ratio */
-  border-radius: 8px;
-  padding-top: 25%;
-}
+
 /* Belt */
 .belt-container {
   width: 100%;

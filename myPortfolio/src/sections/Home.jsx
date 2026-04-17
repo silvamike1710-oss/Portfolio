@@ -1,5 +1,6 @@
 import Section from "../components/Section";
 import Conveyor from "../components/Conveyor";
+import '../App.css';
 
 export default function Home() {
   return (
