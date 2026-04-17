@@ -20,6 +20,12 @@ export default function Projects() {
           </a>
           <img src="/images/mfe.jpeg" alt="mfe" />
         </li>
+           <li>
+          <a href="https://github.com/silvamike1710-oss/BolosDaSalette.git">
+            Site freelance para bolos. 
+          </a>
+          <img src="/images/mfe.jpeg" alt="mfe" />
+        </li>
       </ul>
     </Section>
   );
