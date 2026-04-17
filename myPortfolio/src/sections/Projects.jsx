@@ -9,20 +9,20 @@ export default function Projects() {
       <ul className="grid-list">
         <li>
           <a href="https://github.com/silvamike1710-oss/TriviaFam.git">
-            Kahoot Clone
+            Kahoot Clone - a clone made with javascript and a node server
           </a>
           <img src="/images/kahoot-start.png" alt="kahoot" />
         </li>
 
         <li>
           <a href="https://github.com/silvamike1710-oss/MicroFront.git">
-            Micro Frontend
+            Micro Frontend - a micro front end with 3 partitions
           </a>
           <img src="/images/mfe.jpeg" alt="mfe" />
         </li>
            <li>
           <a href="https://github.com/silvamike1710-oss/BolosDaSalette.git">
-            Site freelance para bolos. 
+            Bolos da Salette - a freelance website i made with html, css and js
           </a>
           <img src="/images/mfe.jpeg" alt="mfe" />
         </li>
